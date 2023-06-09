@@ -85,7 +85,7 @@ ORDER BY 2,3
 
 --Use CTE
 
-WITH PopvsVac(Continent, location, date, Population,New_vacccinations, RollingPeopleVaccinated)
+WITH PopvsVac(Continent, location, date, Population,New_vaccinations, RollingPeopleVaccinated)
 AS
 (
 SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations,
